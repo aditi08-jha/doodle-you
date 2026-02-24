@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Secret Message 💍</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+#proposal{
+display:none;
+animation: fade 2s;
+}
+
+#yesBtn, #noBtn{
+
+margin:10px;
+padding:12px 25px;
+font-size:18px;
+
+}
+
+#yesBtn{
+
+background:#ff4d6d;
+
+}
+
+#noBtn{
+
+background:gray;
+position:relative;
+
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>You win unlimited kisses 😘</h1>
+
+<button onclick="showProposal()">Click for your reward 🎁</button>
+
+
+<div id="proposal">
+
+<h2>From the moment I met you... ❤️</h2>
+
+<h2>You became my everything 🥺</h2>
+
+<h1>Will you be mine forever? 💍</h1>
+
+<button id="yesBtn" onclick="yes()">YES ❤️</button>
+
+<button id="noBtn" onmouseover="moveNo()">NO 😝</button>
+
+</div>
+
+
+<p id="result"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
