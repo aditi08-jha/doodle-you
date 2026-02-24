@@ -7,7 +7,7 @@ if(page==1){
 
 answer=document.getElementById("answer1").value.toLowerCase();
 
-if(answer=="pink"){
+if(answer=="maroon"){
 
 window.location="page2.html";
 
@@ -23,7 +23,7 @@ if(page==2){
 
 answer=document.getElementById("answer2").value.toLowerCase();
 
-if(answer=="pizza"){
+if(answer=="chicken"){
 
 window.location="win.html";
 
@@ -74,5 +74,6 @@ let y=Math.random()*200-100;
 btn.style.left=x+"px";
 
 btn.style.top=y+"px";
+
 
 }
