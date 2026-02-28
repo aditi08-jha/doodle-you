@@ -29,7 +29,7 @@ window.location="win.html";
 
 }else{
 
-document.getElementById("msg").innerHTML="Wrong answer 😭 Try again jaan";
+document.getElementById("msg").innerHTML="Wrong answer 😭 Try again BABY";
 
 }
 
@@ -57,7 +57,7 @@ document.getElementById("proposal").style.display="block";
 
 function yes(){
 
-document.getElementById("result").innerHTML="YAYYYYY ❤️ I LOVE YOU SO MUCH 😭💍";
+document.getElementById("result").innerHTML="YAYYYYY ❤️ I MISS YOU SO MUCH 😭💍";
 
 }
 
@@ -77,3 +77,4 @@ btn.style.top=y+"px";
 
 
 }
+
